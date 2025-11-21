@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customize Your Tesla</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="/" class="logo">TESLA</a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/cars">Cars</a></li>
+      <li><a href="/customize">Customize</a></li>
+    </ul>
+    <div class="user-info">
+      <span class="user-email" id="userEmail" style="display: none;"></span>
+      <a href="/login" class="btn btn-outline" id="loginBtn">Login</a>
+      <a href="/logout" class="btn btn-primary" id="logoutBtn" style="display: none;">Logout</a>
+    </div>
+  </nav>
+
+  <div class="customize-container">
+    <div class="customize-header">
+      <h1>Customize Your Tesla</h1>
+      <p>Build your perfect electric vehicle</p>
+    </div>
+
+    <div class="customize-content">
+      <div class="customize-options">
+        <div class="option-group">
+          <h3>Battery</h3>
+          <div id="batteryOptions"></div>
+        </div>
+
+        <div class="option-group">
+          <h3>Color</h3>
+          <div id="colorOptions"></div>
+        </div>
+
+        <div class="option-group">
+          <h3>Wheels</h3>
+          <div id="wheelsOptions"></div>
+        </div>
+
+        <div class="option-group">
+          <h3>Interior</h3>
+          <div id="interiorOptions"></div>
+        </div>
+      </div>
+
+      <div class="preview-section">
+        <div class="preview-box">
+          <div class="preview-image" id="previewImage">
+            Your Tesla
+          </div>
+          <div class="price-summary">
+            <div class="price-row">
+              <span>Base Price:</span>
+              <span id="basePrice">$40,240</span>
+            </div>
+            <div class="price-row">
+              <span>Battery:</span>
+              <span id="batteryPrice">$0</span>
+            </div>
+            <div class="price-row">
+              <span>Color:</span>
+              <span id="colorPrice">$0</span>
+            </div>
+            <div class="price-row">
+              <span>Wheels:</span>
+              <span id="wheelsPrice">$0</span>
+            </div>
+            <div class="price-row">
+              <span>Interior:</span>
+              <span id="interiorPrice">$0</span>
+            </div>
+            <div class="price-row total">
+              <span>Total:</span>
+              <span id="totalPrice">$40,240</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/common.js"></script>
+  <script src="js/customize.js"></script>
+</body>
+</html>
+
