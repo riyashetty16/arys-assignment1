@@ -1,4 +1,5 @@
 # Tesla Website Replication
+<!-- Updated project scope section -->
 
 A full-stack web application replicating the Tesla website with all required features.
 
@@ -90,4 +91,6 @@ All selections update the total price in real-time and show a visual preview.
 - Default car models are inserted automatically
 - Session secret should be changed in production
 - For production, enable HTTPS and set `secure: true` in session configuration
+
+<!-- minor update for commit -->
 
