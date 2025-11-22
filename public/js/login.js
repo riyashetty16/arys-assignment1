@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loginForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     
-    // Clear previous errors
+  
     clearErrors();
     
     const email = document.getElementById('email').value;
