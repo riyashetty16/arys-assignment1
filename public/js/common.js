@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   await checkUserSession();
 });
 
+
 async function checkUserSession() {
   try {
     const response = await fetch('/api/user');
