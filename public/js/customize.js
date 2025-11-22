@@ -9,6 +9,7 @@ let selectedOptions = {
 
 let customizeOptions = {};
 
+
 document.addEventListener('DOMContentLoaded', async () => {
   // Check if user is logged in
   const response = await fetch('/api/user');
