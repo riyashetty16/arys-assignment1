@@ -24,6 +24,7 @@ app.use(session({
   }
 }));
 
+
 // Database setup
 const db = new sqlite3.Database('tesla.db');
 
