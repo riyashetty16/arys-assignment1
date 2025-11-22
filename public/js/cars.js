@@ -10,6 +10,7 @@ async function loadCars() {
       throw new Error('Failed to load cars');
     }
     
+    
     const cars = await response.json();
     const carsGrid = document.getElementById('carsGrid');
     
