@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
       
       const data = await response.json();
       
+      
       if (response.ok) {
         // Success - redirect to customize page
         window.location.href = '/customize';
